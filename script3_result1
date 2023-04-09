@@ -1,0 +1,21 @@
+○ ufw.service - Uncomplicated firewall
+     Loaded: loaded (/lib/systemd/system/ufw.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Sun 2023-04-09 02:56:35 EEST; 41s ago
+       Docs: man:ufw(8)
+    Process: 38610 ExecStart=/lib/ufw/ufw-init start quiet (code=exited, status=0/SUCCESS)
+    Process: 39086 ExecStop=/lib/ufw/ufw-init stop (code=exited, status=0/SUCCESS)
+   Main PID: 38610 (code=exited, status=0/SUCCESS)
+        CPU: 7ms
+
+кві 09 02:35:52 annapradun systemd[1]: Starting Uncomplicated firewall...
+The UFW is not running. Starting UFW.
+● ufw.service - Uncomplicated firewall
+     Loaded: loaded (/lib/systemd/system/ufw.service; enabled; vendor preset: enabled)
+     Active: active (exited) since Sun 2023-04-09 02:57:17 EEST; 84ms ago
+       Docs: man:ufw(8)
+    Process: 39101 ExecStart=/lib/ufw/ufw-init start quiet (code=exited, status=0/SUCCESS)
+   Main PID: 39101 (code=exited, status=0/SUCCESS)
+        CPU: 6ms
+
+кві 09 02:57:17 annapradun systemd[1]: Starting Uncomplicated firewall...
+кві 09 02:57:17 annapradun systemd[1]: Finished Uncomplicated firewall.

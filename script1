@@ -1,0 +1,26 @@
+#! /bin/bash/
+
+# Information about the OS
+
+echo "System name:"
+/usr/bin/uname 
+
+echo "Host name:"
+hostname
+
+echo "System version:"
+/usr/bin/lsb_release -a
+
+echo "Firewsll status:"
+sudo /usr/sbin/ufw status
+
+echo "DNS servers:"
+sudo grep ^[^#]  /etc/resolv.conf
+
+echo "IP-adress settings:"
+/usr/sbin/ifconfig
+
+echo "Network interface:"
+ifconfig
+
+exit

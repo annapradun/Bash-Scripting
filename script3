@@ -1,0 +1,18 @@
+
+#! /bin/bash/
+
+#Check if ufw (Firewall) is running loop
+
+if systemctl is-active --quiet ufw;
+	then 
+		sudo systemctl status ufw |head -n 10
+		echo "The UFW is running."
+		exit
+	else
+		sudo systemctl status ufw |head -n 10
+		echo "The UFW is not running. Starting UFW."
+		sudo systemctl start ufw 
+		sudo systemctl status ufw |head -n 10
+		exit
+fi
+

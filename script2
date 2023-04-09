@@ -1,0 +1,23 @@
+#! /bin/bash
+
+#Workstation audit
+
+echo "Uptime:"
+/usr/bin/uptime
+
+echo "Current users:"
+/usr/bin/users
+
+echo "Recent logins:"
+/usr/bin/last/last -n 5
+
+echo "TOP-10 Processes by RAM/CPU Usage:"
+/usr/bin/ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem |head
+
+echo "Virtual Memmory Usage:"
+/usr/bin/grep 'Swap' /proc/meminfo
+
+echo "Usage of disk space:"
+/usr/bin/df -h
+
+exit

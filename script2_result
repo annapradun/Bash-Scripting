@@ -1,0 +1,29 @@
+Uptime:
+ 02:55:05 up  8:20,  1 user,  load average: 0,36, 0,18, 0,11
+Current users:
+marla
+Recent logins:
+TOP-10 Processes by RAM/CPU Usage:
+    PID    PPID CMD                         %MEM %CPU
+   1681    1473 /usr/bin/gnome-shell         1.9  1.4
+   2308    1473 /usr/bin/nautilus --gapplic  0.6  0.1
+   2589    1681 /usr/bin/Xwayland :0 -rootl  0.5  0.0
+   2592    1473 /usr/libexec/gsd-xsettings   0.5  0.0
+   1898    1644 /usr/libexec/evolution-data  0.4  0.0
+  37814    1473 /usr/libexec/gnome-terminal  0.4  0.5
+  37772    1681 gjs /usr/share/gnome-shell/  0.4  0.0
+   4799    1473 /usr/bin/gnome-calendar --g  0.3  0.0
+    819       1 /usr/lib/snapd/snapd         0.3  0.0
+Virtual Memmory Usage:
+SwapCached:            0 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Usage of disk space:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1,5G  2,1M  1,5G   1% /run
+/dev/sda3        98G   13G   80G  14% /
+tmpfs           7,3G     0  7,3G   0% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+/dev/sda2       512M  6,1M  506M   2% /boot/efi
+tmpfs           1,5G  132K  1,5G   1% /run/user/1000
+/dev/sr0        4,6G  4,6G     0 100% /media/marla/Ubuntu 22.04.2 LTS amd64
